@@ -1,0 +1,49 @@
+# Set Virtual Environment
+
+pip install virtualenv
+python -m venv ./venv
+source ./venv/Scripts/activate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
