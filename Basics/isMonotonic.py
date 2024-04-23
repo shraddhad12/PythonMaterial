@@ -6,6 +6,7 @@ def isMonotonic(A):
     y.extend(A)
     x.sort()
     y.sort(reverse=True)
+    print(x, y)
     if(x == A or y == A):
         return True
     return False

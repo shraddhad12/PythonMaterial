@@ -1,4 +1,4 @@
-# Reverse list using reverse method
+# Reverse list using slicing method
 def reverse_list(lst):
     r = lst[::-1]
     return r
@@ -8,7 +8,7 @@ def reverse_list2(lst):
     lst.reverse()
     return lst
 
-# Reverse string using reverse method
+# Reverse string using slicing method
 def reverse_string(str):
     r = str[::-1]
     return r
@@ -22,3 +22,10 @@ print("List after reversing 2", reverse_list2(lst))
 str = "Hello World"
 print("String before reversing", str)
 print("String after reversing", reverse_string(str))
+
+
+s="I.like.this.program.very.much"
+s = s.split('.')
+s = s[::-1]
+s = '.'.join(s)
+print(s)
