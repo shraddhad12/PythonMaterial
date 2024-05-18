@@ -32,8 +32,12 @@ class Solution(object):
         if s[0] == "-":
             isNegative = True
             s = s[1:]
+            if s == "":
+                return 0
             if s[0] == "+":
                 return 0
+        if s[0] == "+":
+            s=s[1:]
         for i in s:
             if i == "." or i.isalpha() or not i.isdigit():
                 break
@@ -45,6 +49,6 @@ class Solution(object):
             return -abs(pow(-2,31))
         return number
 
-s="+12"
+s="21474836460"
 result=Solution().myAtoi(s)
 print(result)
