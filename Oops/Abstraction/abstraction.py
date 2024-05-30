@@ -17,6 +17,12 @@ while abstraction is about hiding complex details and exposing only the necessar
 from abc import ABC, abstractmethod
 
 class Animal(ABC):
+
+    
+    
+    def __init__(self):
+        print("from abstract class")
+
     @abstractmethod
     def make_sound(self):
         pass
@@ -25,6 +31,7 @@ class Animal(ABC):
         print("The animal is sleeping")
 
 class Dog(Animal):
+    
     def make_sound(self):
         print("The dog barks")
 
@@ -42,5 +49,5 @@ cat.make_sound()  # Output: The cat meows
 cat.sleep()       # Output: The animal is sleeping
 
 # The following line would raise an error because Animal is abstract and cannot be instantiated
-# animal = Animal()
+animal = Animal()
 

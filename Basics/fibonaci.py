@@ -11,18 +11,14 @@ def fibonacci(n):
         return 1
     else:
         f=[]
-        a, b = 1, 2
-        f.append(a)
-        f.append(b)
-        for i in range(n-1):   
-            c = a + b
-            f.append(c)
-            a = b
-            b = c
+        a, b = 0, 1
+        for i in range(n):   
+            f.append(a)
+            a, b = b, a+b
         return f
     
 # Driver Program   
-print(fibonacci(9)) # Output: 0 1 1 2 3 5 8 13 21 34
+print(fibonacci(9)) # Output: 0 1 1 2 3 5 8 13 21
 
 
 def fibonaci(n):

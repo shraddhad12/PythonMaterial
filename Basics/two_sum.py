@@ -25,7 +25,7 @@ class Solution(object):
         """
 
         for i in range(len(nums)-1):
-            for j in (i+1, len(nums)-1):
+            for j in range(i+1, len(nums)):
                 if i == j:
                     print(i, j, "same")
                     continue
