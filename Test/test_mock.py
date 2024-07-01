@@ -29,7 +29,6 @@ def mock_get_data(mocker):
 async def test_read_data(client, mocker):
     mock_data = {"data": "mocked async data"}
     mocker.patch("main.get_data", return_value=mock_data)
-    
     response = await client.get("/async-data")
     assert response.status_code == 200
     assert response.json() == mock_data

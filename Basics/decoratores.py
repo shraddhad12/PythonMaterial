@@ -62,7 +62,6 @@ def validate_integers2(func):
 def sum3(a, b):
     return a+b
 
-
 print(sum3(3, 3))
 
 

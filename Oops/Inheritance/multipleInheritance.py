@@ -9,26 +9,36 @@ print(MultiDerived.mro())
 # Output: [<class '__main__.MultiDerived'>, <class '__main__.Derived1'>, <class '__main__.Derived2'>, <class '__main__.Base'>, <class 'object'>]
 '''
 
-class A(object):
+class O(object):
     def __init__(self):
         super().__init__()
+        print("inside super class O")
+        super().__init__()
+
+
+class A(O):
+    def __init__(self):
+        # super().__init__()
         print("inside super class A")
+        super().__init__()
 
     def showA(self):
         print("inside A class method")
 
-class B(object):
+class B(O):
     def __init__(self):
-        super().__init__()
+        # super().__init__()
         print("inside super class B")
+        super().__init__()
 
     def showB(self):
         print("inside B class method")
 
 class C(A, B):
     def __init__(self):
-        super().__init__()
+        # super().__init__()
         print("inside super class C")
+        super().__init__()
 
     def showC(self):
         print("inside C class method")

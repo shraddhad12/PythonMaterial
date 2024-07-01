@@ -1,8 +1,11 @@
 pip install django
+
 Django-admin startproject djangoproj . 
+
 django-admin runserver
 python .\manage.py 
-python .\manage.py runserver 
+python .\manage.py runserver
+
 python manage.py startapp playground
 
 pip install django-debug-toolbar
