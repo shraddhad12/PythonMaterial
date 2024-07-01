@@ -15,6 +15,17 @@ obj = MyClass()
 obj.display(10)       # Output: One argument: 10
 obj.display(10, 20)   # Output: Two arguments: 10 and 20
 
+#Using default Argument
+class MyClass:
+    def display(self, a):
+        print(f"One argument: {a}")
+
+    def display(self, a, b):
+        print(f"Two arguments: {a} and {b}")
+obj = MyClass()
+obj.display(10)      
+obj.display(10, 20)   
+
 
 
 
@@ -36,7 +47,8 @@ obj.display(10, 20, 30)  # Output: Invalid number of arguments
 
 # using *args and **kwargs Together -
 '''
- This approach can handle both positional and keyword arguments, providing even more flexibility.
+ This approach can handle both positional and 
+ keyword arguments, providing even more flexibility.
 '''
 class MyClass:
     def display(self, *args, **kwargs):

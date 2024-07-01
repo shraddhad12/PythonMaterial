@@ -3,6 +3,8 @@ list = [10, 20, 396, 445, 56, 78]
 list.sort()
 print(f"Max number is {list[-1]} in list {list}")
 
+print("using inbuild method", max(list))
+
 ## OR
 
 temp = list[0]

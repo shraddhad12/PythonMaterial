@@ -17,9 +17,6 @@ while abstraction is about hiding complex details and exposing only the necessar
 from abc import ABC, abstractmethod
 
 class Animal(ABC):
-
-    
-    
     def __init__(self):
         print("from abstract class")
 

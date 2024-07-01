@@ -1,10 +1,14 @@
 import pandas as pd
-data = pd.read_csv("music_test.csv")
-print(data) # print all rows
-print(data.head()) # print top 5 rows
-print(data.describe()) #perform mathematical operations on table
-df = data
-print(df["Age"])
+
+
+# data = pd.read_csv("music_test.csv")
+# print(data) # print all rows
+
+
+# print(data.head()) # print top 5 rows
+# print(data.describe()) #perform mathematical operations on table
+# df = data
+# print(df["Age"])
 
 
 '''
@@ -83,7 +87,8 @@ Indexing and Selection:
 
 print(df.loc[0][1]) #return element
 print(df.loc[1]) #return row
-print(df.iloc[2])
+print("he,lllooo", df.iloc[1]) # print 
+print()
 
 
 '''
@@ -98,6 +103,7 @@ Data Manipulation:
 
 df1 = df.copy()
 print(df1)
+
 df1 = df1.drop([3])
 print(df1)
 

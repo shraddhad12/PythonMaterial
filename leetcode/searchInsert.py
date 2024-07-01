@@ -19,5 +19,5 @@ class Solution(object):
 
         
 nums = [1,3,5,6]
-target = 7
+target = 4
 print(Solution().searchInsert(nums, target))

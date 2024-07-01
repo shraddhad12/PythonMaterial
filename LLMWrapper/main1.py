@@ -47,7 +47,7 @@ def famous_quote() -> str:
     pass
 
 llm = OpenAI()
-llm = OpenAI.Completion.create(model_name="text-davinci-003",temperature=0.7,max_tokens=512,prompt=prompt, stop=None)
+llm = openai.Completion.create(model_name="text-davinci-003",temperature=0.7,max_tokens=512,prompt=prompt, stop=None)
 
 query = "Peace and War"
 quote = famous_quote(llm=llm, query=query)
