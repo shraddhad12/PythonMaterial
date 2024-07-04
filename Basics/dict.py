@@ -35,3 +35,11 @@ for i in d.items():
 # Sorting by values in descending order
 sorted_by_values_desc = dict(sorted(d.items(), key=lambda item: item[1], reverse=True))
 print("Sorted by values (descending):", sorted_by_values_desc)
+
+# Sorting a Dictionary by Keys and Values Together
+unsorted_dict = {'banana': 3, 'apple': 4, 'pear': 1, 'orange': 2, 'berry': 2}
+
+# Sorted dictionary by values, then by keys
+sorted_dict_by_values_keys = {key: value for key, value in sorted(unsorted_dict.items(), key=lambda item: (item[1], item[0]))}
+
+print(sorted_dict_by_values_keys)
