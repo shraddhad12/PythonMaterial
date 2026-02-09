@@ -27,7 +27,6 @@ print(df.loc[0,"a"])
 #     a =10/0
 #     print(a)
 # except Exception e:
-
 # finally:
     
 # # a = set([1, 2, 3, 3])

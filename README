@@ -1,8 +1,91 @@
-# Set Virtual Environment
+## Data structure
 
-pip install virtualenv
-python -m venv ./venv
-source ./venv/Scripts/activate
+# 1. Array
+1. 1D Array
+2. 2D Array
+3. Searching
+    1. Binary Search
+    2. Linear Search
+4. sorting
+    1. Selection sort
+    2. Bubble sort
+    3. Insertion Sort
+    4. Merge sort
+    5. Quick sort --------------------
+    6. Heap sort ---------------------
+    7. Bucket sort
+5. two Pointers ---------------------
+6. Sliding Window --------------------
+
+# 2. stack
+1. Stack with List
+2. Stack with LinkedList
+
+# 3. Queue
+1. Queue with List
+2. Queue with LinkedList
+
+# 4. LinkedList
+1. Single Linkled List - creation, insertion, deletion, reversal(recursive, iterative), sorting, merging, search
+2. Cycle Linked List - Floyd's Tortoise, Here Algo
+3. Double Linked List
+
+# 5. Recursion
+# 6. backTracking -----------------------------
+
+# 7. Tress
+1. Binary Tress
+    (With List)
+        1. Inorder, preoder, postorder traversal
+        2. create, searching, inserting, delete
+    (With LinkedList)
+        1. Inorder, preoder, postorder traversal- DFS (Depth First search)
+        2. levelorder traversal - BFS (Breath First search)
+        2. create, searching, inserting, delete
+    
+    1. Binary Search Tree
+    2. AVL tree ---------------------------
+    3. Binary Heap
+    4. Trie -  -----------------------------------------
+        1. Implement Trie from scratch
+        2. Insertion/Searching: For words/prefixes
+        3. Autocompletion: Using a trie for word suggestions
+    
+
+# 8. Graph
+1. Traversal 
+    1. Breadth-First Search (BFS)
+    2. Depth-First Search (DFS)
+3. Shortest Path: Dijkstra's Algorithm ------------------------
+4. Cycle Detection: DFS ------------------------------------
+5. Union-Find (Disjoint Set)  -------------------------------------
+    Implement Union-Find from scratch
+    Find/Union Operations
+    Cycle Detection in undirected graphs
+
+# 9. Algorithms
+1. Greedy Algo
+2. Divide and Conquer
+3. Dijsktra's
+4. Bellman Ford
+5. Floyd's Warshall
+6. Kruskal's
+7. Prim's
+8. Floyd's Tortoise
+9. Here's Algo
+
+# 10. Dyanamic Programing ----------------------------------
+ 
+# 112. Heaps (Priority Queues) -------------------------------
+    1. Insertion/Deletion (extract-min/max)
+    2. Building a Heap
+    3. Top K Elements:
+    4. Using a heap to find k largest/smallest elements
+
+# 12. HashTables , HashMap/HashSets
+
+
+
 
 
 
